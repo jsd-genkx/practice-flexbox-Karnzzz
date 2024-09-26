@@ -54,13 +54,13 @@ body {
   /* with flex we created an invisble main axis (across the screen left to right or horizontal) */
   /* we can use flex-direction: column; to switch the main axis to vertical or top to bottom  */
   /* this is the key to understanding flexbox  */
-
+  
   display: flex;
 
-  /* flex-direction: column; */
+     /* flex-direction: column;  */
 
   /* justify-content is for aligning the element on the main axis  (horizontal by default) */
-  /* justify-content: space-evenly; */
+    justify-content:space-evenly; 
 
   /* try */
   /* flex-start, flex-end, center,space-between,space-around, space-evenly */
@@ -80,17 +80,19 @@ body {
   /* Properties value is more or less the same as justify-content */
   /* align-content: center; */
 
-  /* gap: 1rem; */
+   gap: 11gเrem; 
 
-  /* overflow-y: scroll; */
-}
+   overflow-y: scroll; 
+}เ
 
 .item-1 {
   font-size: 1.5rem;
+   flex:10 5 150px; 
 }
 
 .item-2 {
   font-size: 1.5rem;
+   flex: 10 5 150px; 
 }
 
 /* Learning Point 2 */
@@ -99,11 +101,12 @@ body {
 
 .item-3 {
   font-size: 1.5rem;
-  /* flex-grow: 1; */
-  /* flex-shrink: 5; */
-  /* flex-basis: 300px; */
-  /* flex combines all 3 but the last 2 are optional and will adjust responsively by default */
-  /* flex: 1; */
+   /*flex-grow: 1; 
+   flex-shrink: 5; 
+   flex-basis: 300px; */
+   /* flex combines all 3 but the last 2 are optional and will adjust responsively by default */
+    flex:10 1 150px; 
+   /* flex: 1; */
   /* try */
   /* flex-start, flex-end, center,baseline */
   /* align-self: baseline; */
